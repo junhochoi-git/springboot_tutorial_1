@@ -1,0 +1,2 @@
+com/junho/bookcom/springboot/web/HelloControllerTest.java
+ com.junho.bookcom.springboot.web.HelloControllerTest
