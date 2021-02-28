@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelloResponseDtoTest {
+
     @Test
     public void lombokTest(){ // 2.3 Lombok
         //given
@@ -18,6 +19,4 @@ public class HelloResponseDtoTest {
         assertThat(dto.getName()).isEqualTo(name); // 1, 2
         assertThat(dto.getAmount()).isEqualTo(amount);
     }
-
-
 }
